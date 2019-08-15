@@ -4,14 +4,11 @@ Utils accumulated in java development
 ## Detail util
 ```
 |--web
-
   |-- WebUtils：
 		- 网络工具类
 		-...
-		
   |-- XmlUtils：
 		- XML常用操作
-		
   |-- RequestCheckUtils：
 		- 请求参数检查（参考实现方式）
   |-- AtsUtils：
@@ -61,6 +58,4 @@ Utils accumulated in java development
 |--json
 |--base64codec
   |--base64加解码
-  
- ## Detail jars
  ```
