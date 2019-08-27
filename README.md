@@ -23,6 +23,13 @@ Utils accumulated in java development
 		- 加密解密工具
   |-- AlipaySignature:
 		- 签名验签，加密解密（未使用，参考）
+  |-- NetResponse/NetResultBean
+		- 返回自定义业务（NetResultBean）的json字符串
+		- 返回字符流、字节流、下载文件
+		- 重定向、设置refresh响应头、禁用浏览器缓存、设置页面缓存时间
+		- /
+		- 自定义业务对象，对应生成response响应的json
+		
 |--util
   |-- SaUtils: 
 		- 返回32位纯数字字母组成的UUID
