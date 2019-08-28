@@ -34,20 +34,6 @@ public abstract class StringUtils {
 		}
 		return true;
 	}
-	
-	/**
-	 * 判断所有字符串是否都不空
-	 * @param s
-	 * @return true:至少有一个字符串为空 false:所有字符串不为空
-	 */
-	public static boolean isEmpty(CharSequence... s) {
-		boolean empty = false;
-		for (CharSequence charSequence : s) {
-			empty = StringUtils.isEmpty(charSequence);
-			if (empty) break;
-		}
-		return empty;
-	}
 
 	/**
 	 * 检查对象是否为数字型字符串,包含负数开头的。
